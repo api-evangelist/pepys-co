@@ -1,4 +1,4 @@
-# pepys-co
+# Pepys
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pepys-co is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pepys.co/
+Pepys provides AI-powered transcription services that convert audio and video into accurate, timestamped text. Available as a pay‑as‑you‑go platform, it supports over 99 languages and offers features like speaker diarization, summaries, and integrations with tools such as Claude, ChatGPT, Google Drive, and Zoom. Users range from podcasters and researchers to lawyers and sales teams, benefiting from flexible pricing and no subscription commitments.
+
+**Areas:** Transcription · AI · Audio · Video · SaaS
+
+## Pepys on APIs.io
+
+Everything profiled for Pepys is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pepys-co/](https://apis.io/providers/pepys-co/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Pepys API](https://apis.io/apis/pepys-co/pepys-api/) — Transcription API documented at Pepys developer docs.
+- [Pepys API](https://apis.io/apis/pepys-co/pepys-co-api/) — Pepys API as documented publicly: 8 operations. Contract generated from the documentation by API Evangelist (2026-11-20); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Pepys Co Webhooks](https://apis.io/asyncapis/pepys-co/pepys-co-webhooks/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [PostApiV1PodcastsTranscribeRequest](https://apis.io/schemas/pepys-co/pepys-co-post-api-v1-podcasts-transcribe-request/)
+- [PostApiV1TranscriptionsRequest](https://apis.io/schemas/pepys-co/pepys-co-post-api-v1-transcriptions-request/)
+- [PostApiV1UploadsRequest](https://apis.io/schemas/pepys-co/pepys-co-post-api-v1-uploads-request/)
+- [PutApiV1TranscriptionsRequest](https://apis.io/schemas/pepys-co/pepys-co-put-api-v1-transcriptions-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pepys Co Context](https://apis.io/jsonld/pepys-co/pepys-co-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Pepys API Rules](https://apis.io/rules/pepys-co/pepys-co-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pepys Authentication](https://apis.io/security/pepys-co/pepys-co-authentication/)
+- [Pepys Domain Security](https://apis.io/security/pepys-co/pepys-co-domain-security/)
+- [Pepys Trust Center](https://apis.io/security/pepys-co/pepys-co-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Pepys Plans Pricing](https://apis.io/plans/pepys-co/pepys-co-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pepys.co/)
+- [Documentation](https://docs.pepys.co/)
+- [Getting started](https://pepys.co/docs/getting-started/create-an-account)
+- [Pricing](https://pepys.co/pricing)
+- [Support](https://pepys.co/support)
+- [Changelog](https://pepys.co/changelog)
+- [Blog](https://pepys.co/blog)
+- [Security](https://pepys.co/security)
+- [Compliance](https://pepys.co/security)
+- [Terms of service](https://pepys.co/terms)
+- [Privacy policy](https://pepys.co/privacy)
+- [Status](https://pepys.co/status)
+
+## API Evangelist rating
+
+**Kin Score 57.0** — strong · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 54.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 45.2 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 61.3 |
+
+**Agent readiness 39.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pepys-co/](https://apis.io/providers/pepys-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pepys: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pepys-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
